@@ -7,7 +7,7 @@ app.get('/receive', (req, res) => {
     res.send('Hi, this is the TwilioBot listening endpoint!');
 });
 
-app.listen(8080, () => {
+app.listen(process.env.port, () => {
     console.log('TwilioBot listening on port 8080.');
 })
 
