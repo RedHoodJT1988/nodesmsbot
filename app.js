@@ -19,7 +19,7 @@ var client = new twilio(accountSid, authToken);
 
 client.messages.create({
     body: 'Hello, I am here to take over your phone, -TwilioSmsBot',
-    to: '+14697761834',
+    to: '+16822131666',
     from: '+18329349236'
 })
 .then((message) => console.log(message.sid));
